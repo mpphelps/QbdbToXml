@@ -1,0 +1,3014 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Channel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>TRAINER</Name>
+  <Type>ABR</Type>
+  <Number>1</Number>
+  <Controllers>
+    <Controller>
+      <Name>ANALOG-1</Name>
+      <Type>ANALOG</Type>
+      <Number>1001</Number>
+      <AnalogPoints>
+        <AnalogPointInfo>
+          <WordOffset>1</WordOffset>
+          <ItemName>TEST_AI</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <PVDestination>0</PVDestination>
+          <RawPVSource>0</RawPVSource>
+          <RawPVDestination>0</RawPVDestination>
+          <PVSourceName>PVSOURCE	TEST_AI 01001  1 REAL      </PVSourceName>
+          <PVDestinationName />
+          <IsPVSourceScaled>true</IsPVSourceScaled>
+          <IsPVDestinationScaled>false</IsPVDestinationScaled>
+          <PVSourceDataFormat>U4095</PVSourceDataFormat>
+          <PVDestinationDataFormat>None</PVDestinationDataFormat>
+          <SetpointSource>0</SetpointSource>
+          <SetpointDestination>0</SetpointDestination>
+          <RawSetpointSource>0</RawSetpointSource>
+          <RawSetpointDestination>0</RawSetpointDestination>
+          <SetpointSourceName />
+          <SetpointDestinationName />
+          <IsSetpointSourceScaled>false</IsSetpointSourceScaled>
+          <IsSetpointDestinationScaled>false</IsSetpointDestinationScaled>
+          <SetpointSourceDataFormat>None</SetpointSourceDataFormat>
+          <SetpointDestinationDataFormat>None</SetpointDestinationDataFormat>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <RawOutputSource>0</RawOutputSource>
+          <RawOutputDestination>0</RawOutputDestination>
+          <OutputSourceName />
+          <OutputDestinationName />
+          <IsOutpointSourceScaled>false</IsOutpointSourceScaled>
+          <IsOutpointDestinationScaled>false</IsOutpointDestinationScaled>
+          <OutputSourceDataFormat>None</OutputSourceDataFormat>
+          <OutputDestinationDataFormat>None</OutputDestinationDataFormat>
+          <Aux1Source>0</Aux1Source>
+          <Aux1Destination>0</Aux1Destination>
+          <RawAux1Source>0</RawAux1Source>
+          <RawAux1Destination>0</RawAux1Destination>
+          <Aux1SourceName />
+          <Aux1DestinationName />
+          <IsAux1SourceScaled>false</IsAux1SourceScaled>
+          <IsAux1DestinationScaled>false</IsAux1DestinationScaled>
+          <Aux1SourceDataFormat>None</Aux1SourceDataFormat>
+          <Aux1DestinationDataFormat>None</Aux1DestinationDataFormat>
+          <Aux2Source>0</Aux2Source>
+          <Aux2Destination>0</Aux2Destination>
+          <RawAux2Source>0</RawAux2Source>
+          <RawAux2Destination>0</RawAux2Destination>
+          <Aux2SourceName />
+          <Aux2DestinationName />
+          <IsAux2SourceScaled>false</IsAux2SourceScaled>
+          <IsAux2DestinationScaled>false</IsAux2DestinationScaled>
+          <Aux2SourceDataFormat>None</Aux2SourceDataFormat>
+          <Aux2DestinationDataFormat>None</Aux2DestinationDataFormat>
+          <Aux3Source>0</Aux3Source>
+          <Aux3Destination>0</Aux3Destination>
+          <RawAux3Source>0</RawAux3Source>
+          <RawAux3Destination>0</RawAux3Destination>
+          <Aux3SourceName />
+          <Aux3DestinationName />
+          <IsAux3SourceScaled>false</IsAux3SourceScaled>
+          <IsAux3DestinationScaled>false</IsAux3DestinationScaled>
+          <Aux3SourceDataFormat>None</Aux3SourceDataFormat>
+          <Aux3DestinationDataFormat>None</Aux3DestinationDataFormat>
+          <Aux4Source>0</Aux4Source>
+          <Aux4Destination>0</Aux4Destination>
+          <RawAux4Source>0</RawAux4Source>
+          <RawAux4Destination>0</RawAux4Destination>
+          <Aux4SourceName />
+          <Aux4DestinationName />
+          <IsAux4SourceScaled>false</IsAux4SourceScaled>
+          <IsAux4DestinationScaled>false</IsAux4DestinationScaled>
+          <Aux4SourceDataFormat>None</Aux4SourceDataFormat>
+          <Aux4DestinationDataFormat>None</Aux4DestinationDataFormat>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <ModeSourceName />
+          <ModeDestinationName />
+          <ModeSourceBitOffset>0</ModeSourceBitOffset>
+          <ModeDestinationBitOffset>0</ModeDestinationBitOffset>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousPVDestination>0</PreviousPVDestination>
+          <PreviousSetpointDestination>0</PreviousSetpointDestination>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousAux1Destination>0</PreviousAux1Destination>
+          <PreviousAux2Destination>0</PreviousAux2Destination>
+          <PreviousAux3Destination>0</PreviousAux3Destination>
+          <PreviousAux4Destination>0</PreviousAux4Destination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <Reverse>false</Reverse>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <SetpointLow>0</SetpointLow>
+          <SetpointHigh>100</SetpointHigh>
+          <OutputLow>0</OutputLow>
+          <OutputHigh>100</OutputHigh>
+          <PointDescription>TEST_AI</PointDescription>
+          <EUDescription>%</EUDescription>
+          <PARAM>
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <Parent />
+          <EntName />
+          <Area>1A</Area>
+          <PVAlgo7>false</PVAlgo7>
+          <ActionAlgo68>false</ActionAlgo68>
+          <NormalMode>MAN</NormalMode>
+          <ForcePV>false</ForcePV>
+        </AnalogPointInfo>
+        <AnalogPointInfo>
+          <WordOffset>29</WordOffset>
+          <ItemName>TEST_AI2</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <PVDestination>0</PVDestination>
+          <RawPVSource>0</RawPVSource>
+          <RawPVDestination>0</RawPVDestination>
+          <PVSourceName>PVSOURCE	TEST_AI2 01001 29 REAL</PVSourceName>
+          <PVDestinationName />
+          <IsPVSourceScaled>false</IsPVSourceScaled>
+          <IsPVDestinationScaled>false</IsPVDestinationScaled>
+          <PVSourceDataFormat>None</PVSourceDataFormat>
+          <PVDestinationDataFormat>None</PVDestinationDataFormat>
+          <SetpointSource>0</SetpointSource>
+          <SetpointDestination>0</SetpointDestination>
+          <RawSetpointSource>0</RawSetpointSource>
+          <RawSetpointDestination>0</RawSetpointDestination>
+          <SetpointSourceName />
+          <SetpointDestinationName />
+          <IsSetpointSourceScaled>false</IsSetpointSourceScaled>
+          <IsSetpointDestinationScaled>false</IsSetpointDestinationScaled>
+          <SetpointSourceDataFormat>None</SetpointSourceDataFormat>
+          <SetpointDestinationDataFormat>None</SetpointDestinationDataFormat>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <RawOutputSource>0</RawOutputSource>
+          <RawOutputDestination>0</RawOutputDestination>
+          <OutputSourceName />
+          <OutputDestinationName />
+          <IsOutpointSourceScaled>false</IsOutpointSourceScaled>
+          <IsOutpointDestinationScaled>false</IsOutpointDestinationScaled>
+          <OutputSourceDataFormat>None</OutputSourceDataFormat>
+          <OutputDestinationDataFormat>None</OutputDestinationDataFormat>
+          <Aux1Source>0</Aux1Source>
+          <Aux1Destination>0</Aux1Destination>
+          <RawAux1Source>0</RawAux1Source>
+          <RawAux1Destination>0</RawAux1Destination>
+          <Aux1SourceName />
+          <Aux1DestinationName />
+          <IsAux1SourceScaled>false</IsAux1SourceScaled>
+          <IsAux1DestinationScaled>false</IsAux1DestinationScaled>
+          <Aux1SourceDataFormat>None</Aux1SourceDataFormat>
+          <Aux1DestinationDataFormat>None</Aux1DestinationDataFormat>
+          <Aux2Source>0</Aux2Source>
+          <Aux2Destination>0</Aux2Destination>
+          <RawAux2Source>0</RawAux2Source>
+          <RawAux2Destination>0</RawAux2Destination>
+          <Aux2SourceName />
+          <Aux2DestinationName />
+          <IsAux2SourceScaled>false</IsAux2SourceScaled>
+          <IsAux2DestinationScaled>false</IsAux2DestinationScaled>
+          <Aux2SourceDataFormat>None</Aux2SourceDataFormat>
+          <Aux2DestinationDataFormat>None</Aux2DestinationDataFormat>
+          <Aux3Source>0</Aux3Source>
+          <Aux3Destination>0</Aux3Destination>
+          <RawAux3Source>0</RawAux3Source>
+          <RawAux3Destination>0</RawAux3Destination>
+          <Aux3SourceName />
+          <Aux3DestinationName />
+          <IsAux3SourceScaled>false</IsAux3SourceScaled>
+          <IsAux3DestinationScaled>false</IsAux3DestinationScaled>
+          <Aux3SourceDataFormat>None</Aux3SourceDataFormat>
+          <Aux3DestinationDataFormat>None</Aux3DestinationDataFormat>
+          <Aux4Source>0</Aux4Source>
+          <Aux4Destination>0</Aux4Destination>
+          <RawAux4Source>0</RawAux4Source>
+          <RawAux4Destination>0</RawAux4Destination>
+          <Aux4SourceName />
+          <Aux4DestinationName />
+          <IsAux4SourceScaled>false</IsAux4SourceScaled>
+          <IsAux4DestinationScaled>false</IsAux4DestinationScaled>
+          <Aux4SourceDataFormat>None</Aux4SourceDataFormat>
+          <Aux4DestinationDataFormat>None</Aux4DestinationDataFormat>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <ModeSourceName />
+          <ModeDestinationName />
+          <ModeSourceBitOffset>0</ModeSourceBitOffset>
+          <ModeDestinationBitOffset>0</ModeDestinationBitOffset>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousPVDestination>0</PreviousPVDestination>
+          <PreviousSetpointDestination>0</PreviousSetpointDestination>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousAux1Destination>0</PreviousAux1Destination>
+          <PreviousAux2Destination>0</PreviousAux2Destination>
+          <PreviousAux3Destination>0</PreviousAux3Destination>
+          <PreviousAux4Destination>0</PreviousAux4Destination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <Reverse>false</Reverse>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <SetpointLow>0</SetpointLow>
+          <SetpointHigh>100</SetpointHigh>
+          <OutputLow>0</OutputLow>
+          <OutputHigh>100</OutputHigh>
+          <PointDescription>TEST_AI2</PointDescription>
+          <EUDescription>%</EUDescription>
+          <PARAM>
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <Parent />
+          <EntName />
+          <Area>1A</Area>
+          <PVAlgo7>false</PVAlgo7>
+          <ActionAlgo68>false</ActionAlgo68>
+          <NormalMode>MAN</NormalMode>
+          <ForcePV>false</ForcePV>
+        </AnalogPointInfo>
+        <AnalogPointInfo>
+          <WordOffset>57</WordOffset>
+          <ItemName>TEST_AI3</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <PVDestination>0</PVDestination>
+          <RawPVSource>0</RawPVSource>
+          <RawPVDestination>0</RawPVDestination>
+          <PVSourceName>PVSOURCE	TEST_AI3 01001 57 REAL</PVSourceName>
+          <PVDestinationName />
+          <IsPVSourceScaled>false</IsPVSourceScaled>
+          <IsPVDestinationScaled>false</IsPVDestinationScaled>
+          <PVSourceDataFormat>None</PVSourceDataFormat>
+          <PVDestinationDataFormat>None</PVDestinationDataFormat>
+          <SetpointSource>0</SetpointSource>
+          <SetpointDestination>0</SetpointDestination>
+          <RawSetpointSource>0</RawSetpointSource>
+          <RawSetpointDestination>0</RawSetpointDestination>
+          <SetpointSourceName />
+          <SetpointDestinationName />
+          <IsSetpointSourceScaled>false</IsSetpointSourceScaled>
+          <IsSetpointDestinationScaled>false</IsSetpointDestinationScaled>
+          <SetpointSourceDataFormat>None</SetpointSourceDataFormat>
+          <SetpointDestinationDataFormat>None</SetpointDestinationDataFormat>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <RawOutputSource>0</RawOutputSource>
+          <RawOutputDestination>0</RawOutputDestination>
+          <OutputSourceName />
+          <OutputDestinationName />
+          <IsOutpointSourceScaled>false</IsOutpointSourceScaled>
+          <IsOutpointDestinationScaled>false</IsOutpointDestinationScaled>
+          <OutputSourceDataFormat>None</OutputSourceDataFormat>
+          <OutputDestinationDataFormat>None</OutputDestinationDataFormat>
+          <Aux1Source>0</Aux1Source>
+          <Aux1Destination>0</Aux1Destination>
+          <RawAux1Source>0</RawAux1Source>
+          <RawAux1Destination>0</RawAux1Destination>
+          <Aux1SourceName />
+          <Aux1DestinationName />
+          <IsAux1SourceScaled>false</IsAux1SourceScaled>
+          <IsAux1DestinationScaled>false</IsAux1DestinationScaled>
+          <Aux1SourceDataFormat>None</Aux1SourceDataFormat>
+          <Aux1DestinationDataFormat>None</Aux1DestinationDataFormat>
+          <Aux2Source>0</Aux2Source>
+          <Aux2Destination>0</Aux2Destination>
+          <RawAux2Source>0</RawAux2Source>
+          <RawAux2Destination>0</RawAux2Destination>
+          <Aux2SourceName />
+          <Aux2DestinationName />
+          <IsAux2SourceScaled>false</IsAux2SourceScaled>
+          <IsAux2DestinationScaled>false</IsAux2DestinationScaled>
+          <Aux2SourceDataFormat>None</Aux2SourceDataFormat>
+          <Aux2DestinationDataFormat>None</Aux2DestinationDataFormat>
+          <Aux3Source>0</Aux3Source>
+          <Aux3Destination>0</Aux3Destination>
+          <RawAux3Source>0</RawAux3Source>
+          <RawAux3Destination>0</RawAux3Destination>
+          <Aux3SourceName />
+          <Aux3DestinationName />
+          <IsAux3SourceScaled>false</IsAux3SourceScaled>
+          <IsAux3DestinationScaled>false</IsAux3DestinationScaled>
+          <Aux3SourceDataFormat>None</Aux3SourceDataFormat>
+          <Aux3DestinationDataFormat>None</Aux3DestinationDataFormat>
+          <Aux4Source>0</Aux4Source>
+          <Aux4Destination>0</Aux4Destination>
+          <RawAux4Source>0</RawAux4Source>
+          <RawAux4Destination>0</RawAux4Destination>
+          <Aux4SourceName />
+          <Aux4DestinationName />
+          <IsAux4SourceScaled>false</IsAux4SourceScaled>
+          <IsAux4DestinationScaled>false</IsAux4DestinationScaled>
+          <Aux4SourceDataFormat>None</Aux4SourceDataFormat>
+          <Aux4DestinationDataFormat>None</Aux4DestinationDataFormat>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <ModeSourceName />
+          <ModeDestinationName />
+          <ModeSourceBitOffset>0</ModeSourceBitOffset>
+          <ModeDestinationBitOffset>0</ModeDestinationBitOffset>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousPVDestination>0</PreviousPVDestination>
+          <PreviousSetpointDestination>0</PreviousSetpointDestination>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousAux1Destination>0</PreviousAux1Destination>
+          <PreviousAux2Destination>0</PreviousAux2Destination>
+          <PreviousAux3Destination>0</PreviousAux3Destination>
+          <PreviousAux4Destination>0</PreviousAux4Destination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <Reverse>false</Reverse>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <SetpointLow>0</SetpointLow>
+          <SetpointHigh>100</SetpointHigh>
+          <OutputLow>0</OutputLow>
+          <OutputHigh>100</OutputHigh>
+          <PointDescription>TEST_AI3</PointDescription>
+          <EUDescription>%</EUDescription>
+          <PARAM>
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <Parent />
+          <EntName />
+          <Area>1A</Area>
+          <PVAlgo7>false</PVAlgo7>
+          <ActionAlgo68>false</ActionAlgo68>
+          <NormalMode>MAN</NormalMode>
+          <ForcePV>false</ForcePV>
+        </AnalogPointInfo>
+        <AnalogPointInfo>
+          <WordOffset>85</WordOffset>
+          <ItemName>TEST_AI4</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <PVDestination>0</PVDestination>
+          <RawPVSource>0</RawPVSource>
+          <RawPVDestination>0</RawPVDestination>
+          <PVSourceName>PVSOURCE	TEST_AI4 01001 85 REAL</PVSourceName>
+          <PVDestinationName />
+          <IsPVSourceScaled>true</IsPVSourceScaled>
+          <IsPVDestinationScaled>false</IsPVDestinationScaled>
+          <PVSourceDataFormat>U9999</PVSourceDataFormat>
+          <PVDestinationDataFormat>None</PVDestinationDataFormat>
+          <SetpointSource>0</SetpointSource>
+          <SetpointDestination>0</SetpointDestination>
+          <RawSetpointSource>0</RawSetpointSource>
+          <RawSetpointDestination>0</RawSetpointDestination>
+          <SetpointSourceName />
+          <SetpointDestinationName />
+          <IsSetpointSourceScaled>false</IsSetpointSourceScaled>
+          <IsSetpointDestinationScaled>false</IsSetpointDestinationScaled>
+          <SetpointSourceDataFormat>None</SetpointSourceDataFormat>
+          <SetpointDestinationDataFormat>None</SetpointDestinationDataFormat>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <RawOutputSource>0</RawOutputSource>
+          <RawOutputDestination>0</RawOutputDestination>
+          <OutputSourceName />
+          <OutputDestinationName />
+          <IsOutpointSourceScaled>false</IsOutpointSourceScaled>
+          <IsOutpointDestinationScaled>false</IsOutpointDestinationScaled>
+          <OutputSourceDataFormat>None</OutputSourceDataFormat>
+          <OutputDestinationDataFormat>None</OutputDestinationDataFormat>
+          <Aux1Source>0</Aux1Source>
+          <Aux1Destination>0</Aux1Destination>
+          <RawAux1Source>0</RawAux1Source>
+          <RawAux1Destination>0</RawAux1Destination>
+          <Aux1SourceName />
+          <Aux1DestinationName />
+          <IsAux1SourceScaled>false</IsAux1SourceScaled>
+          <IsAux1DestinationScaled>false</IsAux1DestinationScaled>
+          <Aux1SourceDataFormat>None</Aux1SourceDataFormat>
+          <Aux1DestinationDataFormat>None</Aux1DestinationDataFormat>
+          <Aux2Source>0</Aux2Source>
+          <Aux2Destination>0</Aux2Destination>
+          <RawAux2Source>0</RawAux2Source>
+          <RawAux2Destination>0</RawAux2Destination>
+          <Aux2SourceName />
+          <Aux2DestinationName />
+          <IsAux2SourceScaled>false</IsAux2SourceScaled>
+          <IsAux2DestinationScaled>false</IsAux2DestinationScaled>
+          <Aux2SourceDataFormat>None</Aux2SourceDataFormat>
+          <Aux2DestinationDataFormat>None</Aux2DestinationDataFormat>
+          <Aux3Source>0</Aux3Source>
+          <Aux3Destination>0</Aux3Destination>
+          <RawAux3Source>0</RawAux3Source>
+          <RawAux3Destination>0</RawAux3Destination>
+          <Aux3SourceName />
+          <Aux3DestinationName />
+          <IsAux3SourceScaled>false</IsAux3SourceScaled>
+          <IsAux3DestinationScaled>false</IsAux3DestinationScaled>
+          <Aux3SourceDataFormat>None</Aux3SourceDataFormat>
+          <Aux3DestinationDataFormat>None</Aux3DestinationDataFormat>
+          <Aux4Source>0</Aux4Source>
+          <Aux4Destination>0</Aux4Destination>
+          <RawAux4Source>0</RawAux4Source>
+          <RawAux4Destination>0</RawAux4Destination>
+          <Aux4SourceName />
+          <Aux4DestinationName />
+          <IsAux4SourceScaled>false</IsAux4SourceScaled>
+          <IsAux4DestinationScaled>false</IsAux4DestinationScaled>
+          <Aux4SourceDataFormat>None</Aux4SourceDataFormat>
+          <Aux4DestinationDataFormat>None</Aux4DestinationDataFormat>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <ModeSourceName />
+          <ModeDestinationName />
+          <ModeSourceBitOffset>0</ModeSourceBitOffset>
+          <ModeDestinationBitOffset>0</ModeDestinationBitOffset>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousPVDestination>0</PreviousPVDestination>
+          <PreviousSetpointDestination>0</PreviousSetpointDestination>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousAux1Destination>0</PreviousAux1Destination>
+          <PreviousAux2Destination>0</PreviousAux2Destination>
+          <PreviousAux3Destination>0</PreviousAux3Destination>
+          <PreviousAux4Destination>0</PreviousAux4Destination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <Reverse>false</Reverse>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <SetpointLow>0</SetpointLow>
+          <SetpointHigh>100</SetpointHigh>
+          <OutputLow>0</OutputLow>
+          <OutputHigh>100</OutputHigh>
+          <PointDescription>TEST_AI4</PointDescription>
+          <EUDescription>%</EUDescription>
+          <PARAM>
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <Parent />
+          <EntName />
+          <Area>1A</Area>
+          <PVAlgo7>false</PVAlgo7>
+          <ActionAlgo68>false</ActionAlgo68>
+          <NormalMode>MAN</NormalMode>
+          <ForcePV>false</ForcePV>
+        </AnalogPointInfo>
+        <AnalogPointInfo>
+          <WordOffset>113</WordOffset>
+          <ItemName>TEST_AI5</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <PVDestination>0</PVDestination>
+          <RawPVSource>0</RawPVSource>
+          <RawPVDestination>0</RawPVDestination>
+          <PVSourceName>PVSOURCE	TEST_AI5 01001 113 REAL</PVSourceName>
+          <PVDestinationName />
+          <IsPVSourceScaled>true</IsPVSourceScaled>
+          <IsPVDestinationScaled>false</IsPVDestinationScaled>
+          <PVSourceDataFormat>S16B</PVSourceDataFormat>
+          <PVDestinationDataFormat>None</PVDestinationDataFormat>
+          <SetpointSource>0</SetpointSource>
+          <SetpointDestination>0</SetpointDestination>
+          <RawSetpointSource>0</RawSetpointSource>
+          <RawSetpointDestination>0</RawSetpointDestination>
+          <SetpointSourceName />
+          <SetpointDestinationName />
+          <IsSetpointSourceScaled>false</IsSetpointSourceScaled>
+          <IsSetpointDestinationScaled>false</IsSetpointDestinationScaled>
+          <SetpointSourceDataFormat>None</SetpointSourceDataFormat>
+          <SetpointDestinationDataFormat>None</SetpointDestinationDataFormat>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <RawOutputSource>0</RawOutputSource>
+          <RawOutputDestination>0</RawOutputDestination>
+          <OutputSourceName />
+          <OutputDestinationName />
+          <IsOutpointSourceScaled>false</IsOutpointSourceScaled>
+          <IsOutpointDestinationScaled>false</IsOutpointDestinationScaled>
+          <OutputSourceDataFormat>None</OutputSourceDataFormat>
+          <OutputDestinationDataFormat>None</OutputDestinationDataFormat>
+          <Aux1Source>0</Aux1Source>
+          <Aux1Destination>0</Aux1Destination>
+          <RawAux1Source>0</RawAux1Source>
+          <RawAux1Destination>0</RawAux1Destination>
+          <Aux1SourceName />
+          <Aux1DestinationName />
+          <IsAux1SourceScaled>false</IsAux1SourceScaled>
+          <IsAux1DestinationScaled>false</IsAux1DestinationScaled>
+          <Aux1SourceDataFormat>None</Aux1SourceDataFormat>
+          <Aux1DestinationDataFormat>None</Aux1DestinationDataFormat>
+          <Aux2Source>0</Aux2Source>
+          <Aux2Destination>0</Aux2Destination>
+          <RawAux2Source>0</RawAux2Source>
+          <RawAux2Destination>0</RawAux2Destination>
+          <Aux2SourceName />
+          <Aux2DestinationName />
+          <IsAux2SourceScaled>false</IsAux2SourceScaled>
+          <IsAux2DestinationScaled>false</IsAux2DestinationScaled>
+          <Aux2SourceDataFormat>None</Aux2SourceDataFormat>
+          <Aux2DestinationDataFormat>None</Aux2DestinationDataFormat>
+          <Aux3Source>0</Aux3Source>
+          <Aux3Destination>0</Aux3Destination>
+          <RawAux3Source>0</RawAux3Source>
+          <RawAux3Destination>0</RawAux3Destination>
+          <Aux3SourceName />
+          <Aux3DestinationName />
+          <IsAux3SourceScaled>false</IsAux3SourceScaled>
+          <IsAux3DestinationScaled>false</IsAux3DestinationScaled>
+          <Aux3SourceDataFormat>None</Aux3SourceDataFormat>
+          <Aux3DestinationDataFormat>None</Aux3DestinationDataFormat>
+          <Aux4Source>0</Aux4Source>
+          <Aux4Destination>0</Aux4Destination>
+          <RawAux4Source>0</RawAux4Source>
+          <RawAux4Destination>0</RawAux4Destination>
+          <Aux4SourceName />
+          <Aux4DestinationName />
+          <IsAux4SourceScaled>false</IsAux4SourceScaled>
+          <IsAux4DestinationScaled>false</IsAux4DestinationScaled>
+          <Aux4SourceDataFormat>None</Aux4SourceDataFormat>
+          <Aux4DestinationDataFormat>None</Aux4DestinationDataFormat>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <ModeSourceName />
+          <ModeDestinationName />
+          <ModeSourceBitOffset>0</ModeSourceBitOffset>
+          <ModeDestinationBitOffset>0</ModeDestinationBitOffset>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousPVDestination>0</PreviousPVDestination>
+          <PreviousSetpointDestination>0</PreviousSetpointDestination>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousAux1Destination>0</PreviousAux1Destination>
+          <PreviousAux2Destination>0</PreviousAux2Destination>
+          <PreviousAux3Destination>0</PreviousAux3Destination>
+          <PreviousAux4Destination>0</PreviousAux4Destination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <Reverse>false</Reverse>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <SetpointLow>0</SetpointLow>
+          <SetpointHigh>100</SetpointHigh>
+          <OutputLow>0</OutputLow>
+          <OutputHigh>100</OutputHigh>
+          <PointDescription>TEST_AI5</PointDescription>
+          <EUDescription>%</EUDescription>
+          <PARAM>
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <Parent />
+          <EntName />
+          <Area>1A</Area>
+          <PVAlgo7>false</PVAlgo7>
+          <ActionAlgo68>false</ActionAlgo68>
+          <NormalMode>MAN</NormalMode>
+          <ForcePV>false</ForcePV>
+        </AnalogPointInfo>
+        <AnalogPointInfo>
+          <WordOffset>151</WordOffset>
+          <ItemName>TEST_PVALGO7_ANA</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <PVDestination>0</PVDestination>
+          <RawPVSource>0</RawPVSource>
+          <RawPVDestination>0</RawPVDestination>
+          <PVSourceName />
+          <PVDestinationName />
+          <IsPVSourceScaled>false</IsPVSourceScaled>
+          <IsPVDestinationScaled>false</IsPVDestinationScaled>
+          <PVSourceDataFormat>None</PVSourceDataFormat>
+          <PVDestinationDataFormat>None</PVDestinationDataFormat>
+          <SetpointSource>0</SetpointSource>
+          <SetpointDestination>0</SetpointDestination>
+          <RawSetpointSource>0</RawSetpointSource>
+          <RawSetpointDestination>0</RawSetpointDestination>
+          <SetpointSourceName />
+          <SetpointDestinationName>SPDESTIN	TEST_PVALGO7_ANA 01001 151 REAL</SetpointDestinationName>
+          <IsSetpointSourceScaled>false</IsSetpointSourceScaled>
+          <IsSetpointDestinationScaled>false</IsSetpointDestinationScaled>
+          <SetpointSourceDataFormat>None</SetpointSourceDataFormat>
+          <SetpointDestinationDataFormat>None</SetpointDestinationDataFormat>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <RawOutputSource>0</RawOutputSource>
+          <RawOutputDestination>0</RawOutputDestination>
+          <OutputSourceName />
+          <OutputDestinationName />
+          <IsOutpointSourceScaled>false</IsOutpointSourceScaled>
+          <IsOutpointDestinationScaled>false</IsOutpointDestinationScaled>
+          <OutputSourceDataFormat>None</OutputSourceDataFormat>
+          <OutputDestinationDataFormat>None</OutputDestinationDataFormat>
+          <Aux1Source>0</Aux1Source>
+          <Aux1Destination>0</Aux1Destination>
+          <RawAux1Source>0</RawAux1Source>
+          <RawAux1Destination>0</RawAux1Destination>
+          <Aux1SourceName />
+          <Aux1DestinationName />
+          <IsAux1SourceScaled>false</IsAux1SourceScaled>
+          <IsAux1DestinationScaled>false</IsAux1DestinationScaled>
+          <Aux1SourceDataFormat>None</Aux1SourceDataFormat>
+          <Aux1DestinationDataFormat>None</Aux1DestinationDataFormat>
+          <Aux2Source>0</Aux2Source>
+          <Aux2Destination>0</Aux2Destination>
+          <RawAux2Source>0</RawAux2Source>
+          <RawAux2Destination>0</RawAux2Destination>
+          <Aux2SourceName />
+          <Aux2DestinationName />
+          <IsAux2SourceScaled>false</IsAux2SourceScaled>
+          <IsAux2DestinationScaled>false</IsAux2DestinationScaled>
+          <Aux2SourceDataFormat>None</Aux2SourceDataFormat>
+          <Aux2DestinationDataFormat>None</Aux2DestinationDataFormat>
+          <Aux3Source>0</Aux3Source>
+          <Aux3Destination>0</Aux3Destination>
+          <RawAux3Source>0</RawAux3Source>
+          <RawAux3Destination>0</RawAux3Destination>
+          <Aux3SourceName />
+          <Aux3DestinationName />
+          <IsAux3SourceScaled>false</IsAux3SourceScaled>
+          <IsAux3DestinationScaled>false</IsAux3DestinationScaled>
+          <Aux3SourceDataFormat>None</Aux3SourceDataFormat>
+          <Aux3DestinationDataFormat>None</Aux3DestinationDataFormat>
+          <Aux4Source>0</Aux4Source>
+          <Aux4Destination>0</Aux4Destination>
+          <RawAux4Source>0</RawAux4Source>
+          <RawAux4Destination>0</RawAux4Destination>
+          <Aux4SourceName />
+          <Aux4DestinationName />
+          <IsAux4SourceScaled>false</IsAux4SourceScaled>
+          <IsAux4DestinationScaled>false</IsAux4DestinationScaled>
+          <Aux4SourceDataFormat>None</Aux4SourceDataFormat>
+          <Aux4DestinationDataFormat>None</Aux4DestinationDataFormat>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <ModeSourceName />
+          <ModeDestinationName />
+          <ModeSourceBitOffset>0</ModeSourceBitOffset>
+          <ModeDestinationBitOffset>0</ModeDestinationBitOffset>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousPVDestination>0</PreviousPVDestination>
+          <PreviousSetpointDestination>0</PreviousSetpointDestination>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousAux1Destination>0</PreviousAux1Destination>
+          <PreviousAux2Destination>0</PreviousAux2Destination>
+          <PreviousAux3Destination>0</PreviousAux3Destination>
+          <PreviousAux4Destination>0</PreviousAux4Destination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <Reverse>false</Reverse>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <SetpointLow>0</SetpointLow>
+          <SetpointHigh>100</SetpointHigh>
+          <OutputLow>0</OutputLow>
+          <OutputHigh>100</OutputHigh>
+          <PointDescription>TEST_PVALGO7_ANA</PointDescription>
+          <EUDescription>HR</EUDescription>
+          <PARAM>
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <Parent />
+          <EntName />
+          <Area>1A</Area>
+          <PVAlgo7>false</PVAlgo7>
+          <ActionAlgo68>true</ActionAlgo68>
+          <NormalMode>MAN</NormalMode>
+          <ForcePV>false</ForcePV>
+        </AnalogPointInfo>
+        <AnalogPointInfo>
+          <WordOffset>169</WordOffset>
+          <ItemName>TEST_ACTALGO68_ANA</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <PVDestination>0</PVDestination>
+          <RawPVSource>0</RawPVSource>
+          <RawPVDestination>0</RawPVDestination>
+          <PVSourceName>PVSOURCE	TEST_ACTALGO68_ANA 01001 169 REAL</PVSourceName>
+          <PVDestinationName />
+          <IsPVSourceScaled>false</IsPVSourceScaled>
+          <IsPVDestinationScaled>false</IsPVDestinationScaled>
+          <PVSourceDataFormat>None</PVSourceDataFormat>
+          <PVDestinationDataFormat>None</PVDestinationDataFormat>
+          <SetpointSource>0</SetpointSource>
+          <SetpointDestination>0</SetpointDestination>
+          <RawSetpointSource>0</RawSetpointSource>
+          <RawSetpointDestination>0</RawSetpointDestination>
+          <SetpointSourceName>SPSOURCE	TEST_ACTALGO68_ANA 01001 177 REAL</SetpointSourceName>
+          <SetpointDestinationName>SPDESTIN	TEST_ACTALGO68_ANA 01001 179 REAL</SetpointDestinationName>
+          <IsSetpointSourceScaled>false</IsSetpointSourceScaled>
+          <IsSetpointDestinationScaled>false</IsSetpointDestinationScaled>
+          <SetpointSourceDataFormat>None</SetpointSourceDataFormat>
+          <SetpointDestinationDataFormat>None</SetpointDestinationDataFormat>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <RawOutputSource>0</RawOutputSource>
+          <RawOutputDestination>0</RawOutputDestination>
+          <OutputSourceName>OPSOURCE	TEST_ACTALGO68_ANA 01001 171 REAL</OutputSourceName>
+          <OutputDestinationName>OPDESTIN	TEST_ACTALGO68_ANA 01001 173 REAL</OutputDestinationName>
+          <IsOutpointSourceScaled>false</IsOutpointSourceScaled>
+          <IsOutpointDestinationScaled>false</IsOutpointDestinationScaled>
+          <OutputSourceDataFormat>None</OutputSourceDataFormat>
+          <OutputDestinationDataFormat>None</OutputDestinationDataFormat>
+          <Aux1Source>0</Aux1Source>
+          <Aux1Destination>0</Aux1Destination>
+          <RawAux1Source>0</RawAux1Source>
+          <RawAux1Destination>0</RawAux1Destination>
+          <Aux1SourceName />
+          <Aux1DestinationName />
+          <IsAux1SourceScaled>false</IsAux1SourceScaled>
+          <IsAux1DestinationScaled>false</IsAux1DestinationScaled>
+          <Aux1SourceDataFormat>None</Aux1SourceDataFormat>
+          <Aux1DestinationDataFormat>None</Aux1DestinationDataFormat>
+          <Aux2Source>0</Aux2Source>
+          <Aux2Destination>0</Aux2Destination>
+          <RawAux2Source>0</RawAux2Source>
+          <RawAux2Destination>0</RawAux2Destination>
+          <Aux2SourceName />
+          <Aux2DestinationName />
+          <IsAux2SourceScaled>false</IsAux2SourceScaled>
+          <IsAux2DestinationScaled>false</IsAux2DestinationScaled>
+          <Aux2SourceDataFormat>None</Aux2SourceDataFormat>
+          <Aux2DestinationDataFormat>None</Aux2DestinationDataFormat>
+          <Aux3Source>0</Aux3Source>
+          <Aux3Destination>0</Aux3Destination>
+          <RawAux3Source>0</RawAux3Source>
+          <RawAux3Destination>0</RawAux3Destination>
+          <Aux3SourceName />
+          <Aux3DestinationName />
+          <IsAux3SourceScaled>false</IsAux3SourceScaled>
+          <IsAux3DestinationScaled>false</IsAux3DestinationScaled>
+          <Aux3SourceDataFormat>None</Aux3SourceDataFormat>
+          <Aux3DestinationDataFormat>None</Aux3DestinationDataFormat>
+          <Aux4Source>0</Aux4Source>
+          <Aux4Destination>0</Aux4Destination>
+          <RawAux4Source>0</RawAux4Source>
+          <RawAux4Destination>0</RawAux4Destination>
+          <Aux4SourceName />
+          <Aux4DestinationName />
+          <IsAux4SourceScaled>false</IsAux4SourceScaled>
+          <IsAux4DestinationScaled>false</IsAux4DestinationScaled>
+          <Aux4SourceDataFormat>None</Aux4SourceDataFormat>
+          <Aux4DestinationDataFormat>None</Aux4DestinationDataFormat>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <ModeSourceName>MDSOURCE	TEST_ACTALGO68_ANA 01001 175</ModeSourceName>
+          <ModeDestinationName>MDDESTIN	TEST_ACTALGO68_ANA 01001 176</ModeDestinationName>
+          <ModeSourceBitOffset>0</ModeSourceBitOffset>
+          <ModeDestinationBitOffset>0</ModeDestinationBitOffset>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousPVDestination>0</PreviousPVDestination>
+          <PreviousSetpointDestination>0</PreviousSetpointDestination>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousAux1Destination>0</PreviousAux1Destination>
+          <PreviousAux2Destination>0</PreviousAux2Destination>
+          <PreviousAux3Destination>0</PreviousAux3Destination>
+          <PreviousAux4Destination>0</PreviousAux4Destination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <Reverse>false</Reverse>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <SetpointLow>0</SetpointLow>
+          <SetpointHigh>100</SetpointHigh>
+          <OutputLow>0</OutputLow>
+          <OutputHigh>100</OutputHigh>
+          <PointDescription>TEST_ACTALGO68_ANA</PointDescription>
+          <EUDescription>%</EUDescription>
+          <PARAM>
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+            <string />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <Parent />
+          <EntName />
+          <Area>1A</Area>
+          <PVAlgo7>false</PVAlgo7>
+          <ActionAlgo68>true</ActionAlgo68>
+          <NormalMode>MAN</NormalMode>
+          <ForcePV>false</ForcePV>
+        </AnalogPointInfo>
+      </AnalogPoints>
+      <StatusPoints />
+      <AccumPoints />
+    </Controller>
+    <Controller>
+      <Name>STATUS-1</Name>
+      <Type>STATUS</Type>
+      <Number>1002</Number>
+      <AnalogPoints />
+      <StatusPoints>
+        <StatusPointInfo>
+          <WordOffset>1</WordOffset>
+          <ItemName>TEST_ST1</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PV>9.9</PV>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <AlarmAck>0</AlarmAck>
+          <StateDescription />
+          <ReversePV1>false</ReversePV1>
+          <ReversePV2>false</ReversePV2>
+          <ReversePV3>true</ReversePV3>
+          <ReverseOP1>false</ReverseOP1>
+          <ReverseOP2>false</ReverseOP2>
+          <ReverseOP3>false</ReverseOP3>
+          <ReverseMode>false</ReverseMode>
+          <NonConsecutivePV>false</NonConsecutivePV>
+          <NonConsecutiveOP>false</NonConsecutiveOP>
+          <PVStartBit>0</PVStartBit>
+          <OPSourceStartBit>0</OPSourceStartBit>
+          <OPDestinationStartBit>0</OPDestinationStartBit>
+          <ModeSourceStartBit>0</ModeSourceStartBit>
+          <ModeDestinationStartBit>0</ModeDestinationStartBit>
+          <Target>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </Target>
+          <NumberOfInputs>3</NumberOfInputs>
+          <NumberOfOutputs>3</NumberOfOutputs>
+          <PulseLength>0</PulseLength>
+          <Pulsed>false</Pulsed>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <PVSourceBit1>false</PVSourceBit1>
+          <PVSourceBit2>false</PVSourceBit2>
+          <PVSourceBit3>false</PVSourceBit3>
+          <OutputSourceBit1>false</OutputSourceBit1>
+          <OutputSourceBit2>false</OutputSourceBit2>
+          <OutputSourceBit3>false</OutputSourceBit3>
+          <OutputDestinationBit1>false</OutputDestinationBit1>
+          <OutputDestinationBit2>false</OutputDestinationBit2>
+          <OutputDestinationBit3>false</OutputDestinationBit3>
+          <PVSourceName1>PVSOURCE	TEST_ST1 01002 1</PVSourceName1>
+          <PVSourceName2 />
+          <PVSourceName3 />
+          <OutputSourceName1 />
+          <OutputSourceName2 />
+          <OutputSourceName3 />
+          <OutputDestinationName1 />
+          <OutputDestinationName2 />
+          <OutputDestinationName3 />
+          <ModeSourceName1 />
+          <ModeDestinationName1 />
+          <AlarmAckDestinationName1 />
+          <EULow>0</EULow>
+          <EUHigh>7</EUHigh>
+          <PARAM>
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <PointDescription>TEST_ST1</PointDescription>
+          <Area>1A</Area>
+          <ActionAlgo68>false</ActionAlgo68>
+        </StatusPointInfo>
+        <StatusPointInfo>
+          <WordOffset>6</WordOffset>
+          <ItemName>TEST_PVALGO7_STA</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PV>9.9</PV>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <AlarmAck>0</AlarmAck>
+          <StateDescription />
+          <ReversePV1>false</ReversePV1>
+          <ReversePV2>false</ReversePV2>
+          <ReversePV3>false</ReversePV3>
+          <ReverseOP1>false</ReverseOP1>
+          <ReverseOP2>false</ReverseOP2>
+          <ReverseOP3>false</ReverseOP3>
+          <ReverseMode>false</ReverseMode>
+          <NonConsecutivePV>false</NonConsecutivePV>
+          <NonConsecutiveOP>false</NonConsecutiveOP>
+          <PVStartBit>0</PVStartBit>
+          <OPSourceStartBit>0</OPSourceStartBit>
+          <OPDestinationStartBit>0</OPDestinationStartBit>
+          <ModeSourceStartBit>0</ModeSourceStartBit>
+          <ModeDestinationStartBit>0</ModeDestinationStartBit>
+          <Target>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </Target>
+          <NumberOfInputs>1</NumberOfInputs>
+          <NumberOfOutputs>1</NumberOfOutputs>
+          <PulseLength>0</PulseLength>
+          <Pulsed>false</Pulsed>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <PVSourceBit1>false</PVSourceBit1>
+          <PVSourceBit2>false</PVSourceBit2>
+          <PVSourceBit3>false</PVSourceBit3>
+          <OutputSourceBit1>false</OutputSourceBit1>
+          <OutputSourceBit2>false</OutputSourceBit2>
+          <OutputSourceBit3>false</OutputSourceBit3>
+          <OutputDestinationBit1>false</OutputDestinationBit1>
+          <OutputDestinationBit2>false</OutputDestinationBit2>
+          <OutputDestinationBit3>false</OutputDestinationBit3>
+          <PVSourceName1>PVSOURCE	TEST_PVALGO7_STA 01002 6</PVSourceName1>
+          <PVSourceName2 />
+          <PVSourceName3 />
+          <OutputSourceName1 />
+          <OutputSourceName2 />
+          <OutputSourceName3 />
+          <OutputDestinationName1 />
+          <OutputDestinationName2 />
+          <OutputDestinationName3 />
+          <ModeSourceName1 />
+          <ModeDestinationName1 />
+          <AlarmAckDestinationName1 />
+          <EULow>0</EULow>
+          <EUHigh>1</EUHigh>
+          <PARAM>
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <PointDescription>TEST_PVALGO7_STA</PointDescription>
+          <Area>1A</Area>
+          <ActionAlgo68>false</ActionAlgo68>
+        </StatusPointInfo>
+        <StatusPointInfo>
+          <WordOffset>11</WordOffset>
+          <ItemName>TEST_ACTALGO68_STA</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PV>9.9</PV>
+          <OutputSource>0</OutputSource>
+          <OutputDestination>0</OutputDestination>
+          <ModeSource>0</ModeSource>
+          <ModeDestination>0</ModeDestination>
+          <AlarmAck>0</AlarmAck>
+          <StateDescription />
+          <ReversePV1>false</ReversePV1>
+          <ReversePV2>false</ReversePV2>
+          <ReversePV3>false</ReversePV3>
+          <ReverseOP1>false</ReverseOP1>
+          <ReverseOP2>false</ReverseOP2>
+          <ReverseOP3>false</ReverseOP3>
+          <ReverseMode>false</ReverseMode>
+          <NonConsecutivePV>false</NonConsecutivePV>
+          <NonConsecutiveOP>false</NonConsecutiveOP>
+          <PVStartBit>0</PVStartBit>
+          <OPSourceStartBit>0</OPSourceStartBit>
+          <OPDestinationStartBit>0</OPDestinationStartBit>
+          <ModeSourceStartBit>0</ModeSourceStartBit>
+          <ModeDestinationStartBit>0</ModeDestinationStartBit>
+          <Target>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </Target>
+          <NumberOfInputs>1</NumberOfInputs>
+          <NumberOfOutputs>1</NumberOfOutputs>
+          <PulseLength>0</PulseLength>
+          <Pulsed>false</Pulsed>
+          <PhysicalSMNode>0</PhysicalSMNode>
+          <PreviousOutputDestination>0</PreviousOutputDestination>
+          <PreviousModeDestination>0</PreviousModeDestination>
+          <PVSourceBit1>false</PVSourceBit1>
+          <PVSourceBit2>false</PVSourceBit2>
+          <PVSourceBit3>false</PVSourceBit3>
+          <OutputSourceBit1>false</OutputSourceBit1>
+          <OutputSourceBit2>false</OutputSourceBit2>
+          <OutputSourceBit3>false</OutputSourceBit3>
+          <OutputDestinationBit1>false</OutputDestinationBit1>
+          <OutputDestinationBit2>false</OutputDestinationBit2>
+          <OutputDestinationBit3>false</OutputDestinationBit3>
+          <PVSourceName1>PVSOURCE	TEST_ACTALGO68_STA 01002 11</PVSourceName1>
+          <PVSourceName2 />
+          <PVSourceName3 />
+          <OutputSourceName1>OPSOURCE	TEST_ACTALGO68_STA 01002 12</OutputSourceName1>
+          <OutputSourceName2 />
+          <OutputSourceName3 />
+          <OutputDestinationName1>OPDESTIN	TEST_ACTALGO68_STA 01002 13</OutputDestinationName1>
+          <OutputDestinationName2 />
+          <OutputDestinationName3 />
+          <ModeSourceName1>MDSOURCE	TEST_ACTALGO68_STA 01002 14</ModeSourceName1>
+          <ModeDestinationName1>MDDESTIN	TEST_ACTALGO68_STA 01002 15</ModeDestinationName1>
+          <AlarmAckDestinationName1 />
+          <EULow>0</EULow>
+          <EUHigh>1</EUHigh>
+          <PARAM>
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+            <string xsi:nil="true" />
+          </PARAM>
+          <NumberOfParams>0</NumberOfParams>
+          <PointDescription>TEST_ACTALGO68_STA</PointDescription>
+          <Area>1A</Area>
+          <ActionAlgo68>false</ActionAlgo68>
+        </StatusPointInfo>
+      </StatusPoints>
+      <AccumPoints />
+    </Controller>
+    <Controller>
+      <Name>ACCUM-1</Name>
+      <Type>ACCUM</Type>
+      <Number>1003</Number>
+      <AnalogPoints />
+      <StatusPoints />
+      <AccumPoints>
+        <AccumulatorPointInfo>
+          <WordOffset>1</WordOffset>
+          <ItemName>TEST_ACC1</ItemName>
+          <PeerType>GENERIC</PeerType>
+          <PVSource>0</PVSource>
+          <EULow>0</EULow>
+          <EUHigh>100</EUHigh>
+          <EUDescription>%</EUDescription>
+          <ScalingFactor>1</ScalingFactor>
+          <MeterFactor>1</MeterFactor>
+          <MeterRollover>4095</MeterRollover>
+          <PointDescription>TEST_ACC1</PointDescription>
+          <Area>1A</Area>
+        </AccumulatorPointInfo>
+      </AccumPoints>
+    </Controller>
+  </Controllers>
+  <Marg>25</Marg>
+</Channel>
